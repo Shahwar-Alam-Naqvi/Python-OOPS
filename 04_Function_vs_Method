@@ -1,0 +1,22 @@
+# Function Concept
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Shahwar")  
+
+
+# Method Concept
+
+class Student:
+    def __init__(self, name, roll_number):
+        self.name = name
+        self.roll_number = roll_number
+        
+    def display_info(self):
+        print(f"Student Name: {self.name}")
+        print(f"Roll Number: {self.roll_number}")
+
+student1 = Student(name="Shahwar", roll_number=47)
+student1.display_info()
+
